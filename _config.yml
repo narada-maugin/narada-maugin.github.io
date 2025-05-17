@@ -30,13 +30,13 @@ author:
   # Biographic information
   avatar           : "profil.jpg"
   name             : "Narada Maugin" # Name to display in the sidebar
-  position         : "Master's student" # Position to display in the sidebar
+  position         : "MSc Student" 
   pronouns         : "he/him"
   bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Paris Cité Université"
+  location         : "Paris, France" 
+  employer         : "Université Paris-Cité "
   uri              : # URL
-  email            : "narada.maugin@gmail.com" 
+  email            : "narada.maugin@etu.u-paris.fr" 
 
   # Academic websites
   academia         : # URL
@@ -67,7 +67,7 @@ author:
   keybase          : # Username
   instagram        : # Username
   lastfm           : # Username
-  linkedin         : # Username
+  linkedin         : "narada-maugin"
   mastodon         : # URL
   medium           : # URL
   pinterest        : # Username

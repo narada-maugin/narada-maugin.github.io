@@ -15,13 +15,18 @@ $(document).ready(function () {
       localStorage.getItem("theme") ||
       $("html").attr("data-theme") ||
       browserPref;
-
+  
     if (use_theme === "dark") {
       $("html").attr("data-theme", "dark");
-      $("#theme-icon").removeClass("fa-sun").addClass("fa-moon");
-    } else if (use_theme === "light") {
+      $("#theme-icon").removeClass("fa-sun fa-sun-bright").addClass("fa-moon");
+    } 
+    else if (use_theme === "sunrise") {
+      $("html").attr("data-theme", "sunrise");
+      $("#theme-icon").removeClass("fa-moon fa-sun").addClass("fa-sun");
+    } 
+    else { // light
       $("html").removeAttr("data-theme");
-      $("#theme-icon").removeClass("fa-moon").addClass("fa-sun");
+      $("#theme-icon").removeClass("fa-moon fa-sun-bright").addClass("fa-sun");
     }
   };
 
@@ -38,10 +43,10 @@ $(document).ready(function () {
 
   // Toggle the theme manually
   var toggleTheme = function () {
-    const current_theme = $("html").attr("data-theme");
-    const new_theme = current_theme === "dark" ? "light" : "dark";
-    localStorage.setItem("theme", new_theme);
-    setTheme(new_theme);
+    const current = $("html").attr("data-theme");
+    const next = current === "dark" ? "sunrise" : "dark";
+    localStorage.setItem("theme", next);
+    setTheme(next);
   };
 
   $('#theme-toggle').on('click', toggleTheme);
