@@ -22,7 +22,7 @@ Expériences
 ======
 * **Chercheur stagiaire - Université Paris-Dauphine-PSL, 2025**
   * PokerGPT : jouer (correctement) au poker avec un grand modèle de langage
-  * Encadrant : [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), chercheur en IA
+  * Encadrant : [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), professeur des universités
 
 * **Chercheur stagiaire - Centre François Viète, 2024**
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd'hui
