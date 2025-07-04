@@ -11,20 +11,13 @@ redirect_from:
 
 Vous trouverez un CV détaillé d'avril 2025 en cliquant <a href="/files/CV/CV_04_2025.pdf" target="_blank">ici (PDF)</a>.
 
-Formation
-======
-* Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
-* Licence de mathématiques, Nantes Université, 2022-2024
-* Prépa scientifique MP2I, Lycée Clemenceau (Nantes), 2021-2022
-* Baccalauréat (maths, physique-chimie), Lycée David d'Angers, 2020-2021
-
 Expériences
 ======
-* **Chercheur stagiaire - Université Paris-Dauphine-PSL, 2025**
+* **Chercheur stagiaire - [LAMSADE](https://www.lamsade.dauphine.fr/), 2025**
   * PokerGPT : jouer (correctement) au poker avec un grand modèle de langage
   * Encadrant : [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), professeur des universités
 
-* **Chercheur stagiaire - Centre François Viète, 2024**
+* **Chercheur stagiaire - [Centre François Viète](https://cfv.univ-nantes.fr/), 2024**
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd'hui
   * Encadrante : [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historienne des sciences
 
@@ -34,6 +27,20 @@ Expériences
 * **Joueur de poker professionnel - 2017-2020**
   * Joueur de poker sur internet spécialisé dans les Expressos/Spin&go jusqu'aux 250€.
   * Sur Winamax, Pokerstars, Unibet, PartyPoker et PMU
+
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
+
+Formation
+======
+* Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
+* Licence de mathématiques, Nantes Université, 2022-2024
+* Prépa scientifique MP2I, Lycée Clemenceau (Nantes), 2021-2022
+* Baccalauréat (maths, physique-chimie), Lycée David d'Angers, 2020-2021
+
 
 
 <!---
@@ -54,11 +61,7 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
   
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
+
   
 Teaching
 ======
