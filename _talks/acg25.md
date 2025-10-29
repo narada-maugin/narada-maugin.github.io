@@ -14,4 +14,4 @@ SpinGPT a été entrainé en deux temps, d'abord par du *fine-tuning* sur 320 00
 
 *Un solver de poker est un logiciel qui calcule des stratégies proches de l'optimum théorique dans des configurations précises de jeu. 
 
-Les slides de la présentation sont [ici](/files/ACG25.html). L'article 
+Les slides de la présentation sont [ici](/files/ACG25.html). L'article en preprint est sur [Arxiv](https://arxiv.org/abs/2509.22387).
