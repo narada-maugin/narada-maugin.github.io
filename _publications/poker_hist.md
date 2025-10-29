@@ -5,6 +5,7 @@ category: theses
 permalink: /poker_hist
 excerpt: 'Ce travail encadré de recherche vise à comprendre comment ce sulfureux jeu de cartes a pu devenir un objet d’intérêt pour les scientifiques.'
 date: 2024-07-12
+venue:
 paperurl: '\files\stage1_poker.pdf'
 ---
 
