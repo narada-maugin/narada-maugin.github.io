@@ -8,7 +8,7 @@ date: 2025-06-30
 location: "Dijon, France"
 ---
 
-J'ai eu la chance de présenter mes travaux à Dijon lors de la [PFIA'25](https://pfia2025.u-bourgogne.fr/) au sein de l'atelier Jeux et IA / MAFTEC.
+J'ai eu la joie de présenter une version préliminaire de mes travaux sur les grands modèles de langage (LLM) au poker à Dijon lors de la [PFIA'25](https://pfia2025.u-bourgogne.fr/) au sein de l'atelier Jeux et IA / MAFTEC.
 
 Les slides de la présentation sont [ici](/files/pfia25.html).
 
