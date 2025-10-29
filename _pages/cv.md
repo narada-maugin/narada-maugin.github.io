@@ -34,6 +34,12 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
+Publications
+======
+  <ul>{% for post in site.publications reversed %}
+    {% include archive-single-cv.html %}
+  {% endfor %}</ul>
+
 Formation
 ======
 * Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
@@ -54,12 +60,6 @@ Skills
   * Sub-skill 2.2
   * Sub-skill 2.3
 * Skill 3
-
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
   
 Teaching
 ======
