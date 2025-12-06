@@ -11,6 +11,13 @@ redirect_from:
 
 Vous trouverez un CV détaillé d'avril 2025 en cliquant <a href="/files/CV/CV_04_2025.pdf" target="_blank">ici (PDF)</a>.
 
+Formation
+======
+* Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
+* Licence de mathématiques, Nantes Université, 2022-2024
+* Prépa scientifique MP2I, Lycée Clemenceau (Nantes), 2021-2022
+* Baccalauréat (maths, physique-chimie), Lycée David d'Angers, 2020-2021
+
 Expériences
 ======
 * **Chercheur stagiaire - [LAMSADE](https://www.lamsade.dauphine.fr/), 2025**
@@ -40,12 +47,6 @@ Publications
     {% include archive-single-cv.html %}
   {% endfor %}</ul>
 
-Formation
-======
-* Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
-* Licence de mathématiques, Nantes Université, 2022-2024
-* Prépa scientifique MP2I, Lycée Clemenceau (Nantes), 2021-2022
-* Baccalauréat (maths, physique-chimie), Lycée David d'Angers, 2020-2021
 
 
 
