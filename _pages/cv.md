@@ -28,7 +28,7 @@ Expériences
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd'hui
   * Encadrante : [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historienne des sciences
 
-* **Entraîneur d’échecs - [L'échiquier angevin](https://echiquierangevin.jimdoweb.com/), 2019-2020**
+* **Entraîneur d’échecs - [L'échiquier angevin](https://www.echiquierangevin.com/), 2019-2020**
   * Cours d'échecs hebdomadaires à destination de jeunes joueurs angevins. Préparation et accompagnement lors des championnats jeunes. 
 
 * **Joueur de poker professionnel - 2017-2020**
