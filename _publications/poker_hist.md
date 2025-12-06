@@ -7,6 +7,7 @@ excerpt: 'Ce travail encadré de recherche vise à comprendre comment ce sulfure
 date: 2024-07-12
 venue:
 paperurl: '\files\stage1_poker.pdf'
+citation: "Maugin, N. (2024). Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui. Mémoire de licence, Nantes Université."
 ---
 
 Sous la direction de Lisa Rougetet, historienne des sciences à l'Université de Bretagne Occidentale.

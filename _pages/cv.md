@@ -43,9 +43,24 @@ Talks
 
 Publications
 ======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
+<ul>
+  {% for post in site.publications reversed %}
+    {% unless post.category == "theses" %}
+      {% include archive-single-cv.html %}
+    {% endunless %}
+  {% endfor %}
+</ul>
+
+Bachelor thesis
+======
+<ul>
+  {% for post in site.publications reversed %}
+    {% if post.category == "theses" %}
+      {% include archive-single-cv.html %}
+    {% endif %}
+  {% endfor %}
+</ul>
+
 
 
 
