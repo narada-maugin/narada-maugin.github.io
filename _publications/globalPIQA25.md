@@ -9,6 +9,7 @@ venue:
 paperurl: 'https://arxiv.org/pdf/2510.24081'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
 citation: 'Tyler A. Chang, Catherine Arnett et al. (2025). &quot;Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures.&quot; <i>Arxiv</i>.'
+code: "https://github.com/mrlbenchmarks/global-piqa"
 ---
 
 I contributed to the database for this article, which sought to evaluate the physical common sense reasoning of LLMs.
