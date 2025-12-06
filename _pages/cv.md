@@ -20,11 +20,11 @@ Formation
 
 Expériences
 ======
-* **Chercheur stagiaire - [LAMSADE](https://www.lamsade.dauphine.fr/), 2025**
+* **Chercheur stagiaire - [LAMSADE](https://www.lamsade.dauphine.fr/), 2025 (depuis mai)**
   * PokerGPT : jouer (correctement) au poker avec un grand modèle de langage
   * Encadrant : [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), professeur des universités
 
-* **Chercheur stagiaire - [Centre François Viète](https://cfv.univ-nantes.fr/), 2024**
+* **Chercheur stagiaire - [Centre François Viète](https://cfv.univ-nantes.fr/), 2024 (Mai-Juillet)**
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd'hui
   * Encadrante : [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historienne des sciences
 
