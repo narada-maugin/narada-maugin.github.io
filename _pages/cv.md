@@ -9,7 +9,9 @@ redirect_from:
 
 {% include base_path %}
 
-You can find a detailed CV from April 2025 by clicking <a href="/files/CV/CV_04_2025.pdf" target="_blank">here (french)</a>.
+You can find a detailed CV from April 2025 by clicking <a href="/files/CV/CV_04_2025.pdf" target="_blank">here (French)</a>.  
+The courses I have taken in the LOGOS Master are listed on the <a href="/courses/" target="_blank">Courses</a> page.
+
 
 Education
 ======
