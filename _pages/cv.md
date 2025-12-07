@@ -9,31 +9,31 @@ redirect_from:
 
 {% include base_path %}
 
-Vous trouverez un CV détaillé d'avril 2025 en cliquant <a href="/files/CV/CV_04_2025.pdf" target="_blank">ici (PDF)</a>.
+You can find a detailed CV from April 2025 by clicking <a href="/files/CV/CV_04_2025.pdf" target="_blank">here (french)</a>.
 
-Formation
+Education
 ======
-* Master [LOGOS](https://master-logos.fr/), Université Paris-Cité, 2024-2026
-* Licence de mathématiques, Nantes Université, 2022-2024
-* Prépa scientifique MP2I, Lycée Clemenceau (Nantes), 2021-2022
-* Baccalauréat (maths, physique-chimie), Lycée David d'Angers, 2020-2021
+* Master’s program [Logos](https://master-logos.fr/), Université Paris Cité, 2024–2026
+* Bachelor’s degree in Mathematics, Nantes Université, 2022–2024
+* MP2I scientific preparatory class, Lycée Clemenceau (Nantes), 2021–2022
+* Baccalauréat (Mathematics, Physics-Chemistry), Lycée David d’Angers, 2020–2021
 
-Expériences
+Working Experience
 ======
-* **Chercheur stagiaire - [LAMSADE](https://www.lamsade.dauphine.fr/), 2025 (depuis mai)**
-  * PokerGPT : jouer (correctement) au poker avec un grand modèle de langage
-  * Encadrant : [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), professeur des universités
+* **Research intern – [LAMSADE](https://www.lamsade.dauphine.fr/), 2025 (since May)**
+  * PokerGPT: playing (correct) poker with a large language model
+  * Supervisor: [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), full professor
 
-* **Chercheur stagiaire - [Centre François Viète](https://cfv.univ-nantes.fr/), 2024 (Mai-Juillet)**
-  * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd'hui
-  * Encadrante : [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historienne des sciences
+* **Research intern – [Centre François Viète](https://cfv.univ-nantes.fr/), 2024 (May–July)**
+  * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui
+  * Supervisor: [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historian of science
 
-* **Entraîneur d’échecs - [L'échiquier angevin](https://www.echiquierangevin.com/), 2019-2020**
-  * Cours d'échecs hebdomadaires à destination de jeunes joueurs angevins. Préparation et accompagnement lors des championnats jeunes. 
+* **Chess coach – [L’échiquier angevin](https://www.echiquierangevin.com/), 2019–2020**
+  * Weekly chess lessons for young players from Angers. Preparation and support during youth championships.
 
-* **Joueur de poker professionnel - 2017-2020**
-  * Joueur de poker sur internet spécialisé dans les Expressos/Spin&go jusqu'aux 250€.
-  * Sur Winamax, Pokerstars, Unibet, PartyPoker et PMU
+* **Professional poker player – 2017–2020**
+  * Online poker player specializing in Expressos/Spin & Go, up to €250 buy-ins.
+  * Played on Winamax, PokerStars, Unibet, PartyPoker, and PMU.
 
 Talks
 ======
@@ -61,12 +61,8 @@ Bachelor thesis
   {% endfor %}
 </ul>
 
-
-
-
-
 <!---
-Masqué :
+Hidden:
 
 Skills
 ======

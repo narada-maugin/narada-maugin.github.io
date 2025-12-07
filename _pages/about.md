@@ -7,14 +7,16 @@ redirect_from:
   - /about.html
 ---
 
-### Parcours
+### Background
 
-Actuellement étudiant au [master LOGOS](https://master-logos.fr/) de l’Université Paris Cité, je suis formé à la logique, la linguistique, l’informatique et la philosophie. Précédemment, j'ai obtenu une licence de mathématiques et j'ai suivi une année de classe préparatoire MP2I (mathématiques, physique, ingénierie et informatique) à Nantes. Avant cela, j'ai également été joueur de poker et entraîneur d'échecs. Mon [CV](/cv/) est disponible sur ce site.
+I am currently a student in the [Logos Master’s program](https://master-logos.fr/) at Université Paris Cité, where I study logic, linguistics, computer science, and philosophy. Previously, I obtained a bachelor’s degree in mathematics and completed one year in the MP2I preparatory class (mathematics, physics, engineering, and computer science) in Nantes. Before that, I was also a poker player and a chess coach. My [CV](/cv/) is available on this site.
 
-### Recherches
-Ma première expérience de recherche fut de réaliser un stage sous la direction de [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historienne des sciences. Spécialiste, entre autres, de l’histoire des jeux mathématiques, j’ai eu la joie d'apprendre et de travailler à ses côtés. J'ai retracé l'histoire, à la fois ludique et scientifique, du poker, depuis l'apparition des premiers jeux de cartes en Extrême-Orient jusqu'aux derniers développements des *pokerbots* en 2019, ces programmes capables de surpasser les meilleurs joueurs humains. Mon fil directeur a été (d'essayer) de comprendre comment ce sulfureux jeu de cartes a pu devenir un objet d'intérêt pour les scientifiques au point de devenir paradigmatique des jeux à information incomplète. Le rapport issu de ce travail est à retrouver [ici](\files\stage1_poker.pdf).
+### Research
 
-Depuis mai 2025, je réalise un stage de recherche sous la direction du professeur [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php). Je poursuis, en quelque sorte, le travail réalisé dans ma précédente expérience, mais cette fois en mettant les mains "dans le cambouis" en entrainant un grand modèle de langage au poker. J'ai pour cela développé [SpinGPT](https://spingpt.lamsade.fr/) qui a battu l'IA championne du monde de poker en titre, Slumbot. Ce travail a donné lieu à un article qui a été accepté à la 2025 *Advances in Computer Games Conference*, et dont le preprint est accesible sur [Arxiv](https://arxiv.org/abs/2509.22387).
+My first research experience was an internship supervised by [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), a historian of science. A specialist, among other things, in the history of mathematical games, she gave me the opportunity to learn and work alongside her. I traced the history, both playful and scientific, of poker, from the earliest card games in East Asia to the latest developments in *pokerbots* in 2019, programs capable of outperforming the best human players. My guiding question was to understand how this controversial card game came to be a subject of interest for scientists, to the point of becoming paradigmatic of incomplete-information games. The report resulting from this work can be found [here (french)](\files\stage1_poker.pdf).
 
-### Centres d’intérêt
-J'ai des centres d'intérêts éclectiques, mais je m'intéresse particulièrement à la façon dont on pense, on exprime, on modélise et on affronte l'incertitude. En ce sens, je m'intéresse aussi bien à la théorie de l'information, la théorie des jeux et au bayésianisme, qu'au poker ou au *forecasting*, en passant par la psychologie sociale, l'économie comportementale ou encore l'épistémologie.
+Since May 2025, I have been doing a research internship supervised by Professor [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php). In a sense, I am continuing the work from my previous project, but this time by getting my hands dirty training a large language model to play poker. To this end, I developed [SpinGPT](https://spingpt.lamsade.fr/), which defeated the reigning poker AI world champion, Slumbot. This work led to a paper accepted at the 2025 *Advances in Computer Games* conference, and a preprint is available on [Arxiv](https://arxiv.org/abs/2509.22387).
+
+### Interests
+
+I have eclectic interests, but I am particularly interested in how we think about, express, model, and confront uncertainty. In this sense, I am interested in information theory, game theory, and Bayesianism, as well as poker and forecasting, along with social psychology, behavioral economics, and epistemology.

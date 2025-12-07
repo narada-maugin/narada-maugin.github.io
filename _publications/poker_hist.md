@@ -3,13 +3,13 @@ title: "Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècl
 collection: publications
 category: theses
 permalink: /poker_hist
-excerpt: 'Ce travail encadré de recherche vise à comprendre comment ce sulfureux jeu de cartes a pu devenir un objet d’intérêt pour les scientifiques.'
+excerpt: 'This supervised research project examines how a once disreputable card game became an object of scientific interest.'
 date: 2024-07-12
 venue:
 paperurl: '\files\stage1_poker.pdf'
 citation: "Maugin, N. (2024). Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui. Mémoire de licence, Nantes Université."
 ---
 
-Sous la direction de Lisa Rougetet, historienne des sciences à l'Université de Bretagne Occidentale.
+Supervised by Lisa Rougetet, historian of science at Université de Bretagne Occidentale.
 
-Je commence par retracer les origines des jeux de cartes, en explorant le contexte dans lequel ils sont apparus ainsi que leur évolution au fil des siècles. Cela permet de mieux comprendre dans quel contexte le poker à émerger. Ensuite, sur le poker à proprement parler, je décris ses origines controversées, puis son parcours vers la respectabilité, notamment à travers la création des tournois et leur mise en lumière avec les WSOP (Worlds Series of Poker). J'examine alors comment ce jeu a capté l'attention des mathématiciens, puis des informaticiens, en devenant un véritable objet d'étude scientifique et participant ainsi à l'émergence de la théorie des jeux. Enfin, je m'intéresse aux avancées algorithmiques depuis la fin des années 90, particulièrement l'algorithme CFR (Counterfactual Regret Minimization), qui ont conduit au développement de Pluribus en 2019, une intelligence artificielle capable de surclasser les meilleurs joueurs du monde.
+I begin by tracing the origins of card games, exploring the context in which they emerged and how they evolved over the centuries. This provides the background needed to understand the context in which poker appeared. I then focus on poker itself, describing its controversial beginnings and its path toward respectability, in particular through the creation of tournaments and their exposure with the World Series of Poker (WSOP). I examine how the game attracted the attention first of mathematicians and later of computer scientists, becoming a genuine object of scientific study and contributing to the emergence of game theory. Finally, I look at algorithmic advances since the late 1990s—especially Counterfactual Regret Minimization (CFR)—that led to the development of Pluribus in 2019, an artificial intelligence capable of outperforming the world’s best players.

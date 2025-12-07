@@ -8,11 +8,11 @@ date: 2025-10-29
 venue:
 paperurl: 'https://arxiv.org/pdf/2510.24081'
 # bibtexurl: 'http://academicpages.github.io/files/bibtex1.bib'
-citation: 'Tyler A. Chang, Catherine Arnett et al. (2025). &quot;Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures.&quot; <i>Arxiv</i>.'
+citation: 'Tyler A. Chang, Catherine Arnett et al. (2025). &quot;Global PIQA: Evaluating Physical Commonsense Reasoning Across 100+ Languages and Cultures.&quot; <i>Preprint</i>.'
 code: "https://github.com/mrlbenchmarks/global-piqa"
 ---
 
-I contributed to the database for this article, which sought to evaluate the physical common sense reasoning of LLMs.
+Global PIQA is a participatory benchmark for evaluating physically grounded commonsense reasoning in large language models across more than 100 languages and over 100 language varieties. It consists of multiple-choice questions about everyday physical situations, many of which are tied to local foods, customs, and practices, in order to test whether models capture culturally specific commonsense knowledge rather than only generic patterns. The paper shows that, while state-of-the-art models perform well on average, they still lag significantly in many lower-resource languages, and that open models generally underperform proprietary ones, highlighting persistent gaps in everyday knowledge across languages.
 
-Abstract : 
-To date, there exist almost no culturally-specific evaluation benchmarks for large language models (LLMs) that cover a large number of languages and cultures. In this paper, we present Global PIQA, a participatory commonsense reasoning benchmark for over 100 languages, constructed by hand by 335 researchers from 65 countries around the world. The 116 language varieties in Global PIQA cover five continents, 14 language families, and 23 writing systems. In the non-parallel split of Global PIQA, over 50% of examples reference local foods, customs, traditions, or other culturally-specific elements. We find that state-of-the-art LLMs perform well on Global PIQA in aggregate, but they exhibit weaker performance in lower-resource languages (up to a 37% accuracy gap, despite random chance at 50%). Open models generally perform worse than proprietary models. Global PIQA highlights that in many languages and cultures, everyday knowledge remains an area for improvement, alongside more widely-discussed capabilities such as complex reasoning and expert knowledge. Beyond its uses for LLM evaluation, we hope that Global PIQA provides a glimpse into the wide diversity of cultures in which human language is embedded. 
+For this project, I contributed French examples to the Global PIQA dataset, helping to design French questions that encode local, physically grounded commonsense knowledge.
+
