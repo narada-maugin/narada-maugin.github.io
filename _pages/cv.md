@@ -22,11 +22,11 @@ Education
 
 Working Experience
 ======
-* **Research intern – [LAMSADE](https://www.lamsade.dauphine.fr/), 2025 (since May)**
+* **Research intern – [LAMSADE](https://www.lamsade.dauphine.fr/), May 2025 - January 2026**
   * PokerGPT: playing (correct) poker with a large language model
   * Supervisor: [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), full professor
 
-* **Research intern – [Centre François Viète](https://cfv.univ-nantes.fr/), 2024 (May–July)**
+* **Research intern – [Centre François Viète](https://cfv.univ-nantes.fr/), May - July 2024**
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui
   * Supervisor: [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historian of science
 
