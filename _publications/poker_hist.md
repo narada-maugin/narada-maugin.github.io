@@ -1,9 +1,9 @@
 ---
-title: "Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui"
+title: "Poker: the scientific journey of a controversial game, from the 18th century to today"
 collection: publications
 category: theses
 permalink: /poker_hist
-excerpt: 'This supervised research project examines how a once disreputable card game became an object of scientific interest.'
+excerpt: 'This supervised research project, written in French, examines how a once disreputable card game became an object of scientific interest.'
 date: 2024-07-12
 venue:
 paperurl: '\files\stage1_poker.pdf'
