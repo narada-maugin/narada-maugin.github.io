@@ -15,4 +15,4 @@ SpinGPT is trained in two stages. First, it is fine-tuned on 320,000 hands from 
 
 *A poker solver is a program that computes strategies close to the game-theoretic optimum in specific game situations.
 
-The slides of the talk are available [here](/files/ACG25.html).
+The slides of the talk are available [here](/files/ACG25.html), along with the [video](https://youtu.be/i4uocvjaU_E?si=YL6cELHzxXyODH0f&t=2677).
