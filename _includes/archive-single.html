@@ -98,29 +98,42 @@
     {% assign has_slides = post.slidesurl %}
     {% assign has_bib    = post.bibtexurl %}
     {% assign has_code   = post.code %}
+    {% assign has_video  = post.video %}
 
-    {% if has_paper or has_slides or has_bib or has_code %}
+    {% if has_paper or has_slides or has_bib or has_code or has_video %}
       <p style="font-size: smaller">
+        {% assign first = true %}
+
         {% if has_paper %}
           <a href="{{ post.paperurl }}">Download Paper</a>
+          {% assign first = false %}
         {% endif %}
 
         {% if has_code %}
-          {% if has_paper %} | {% endif %}
+          {% unless first %} | {% endunless %}
           <a href="{{ post.code }}">Code</a>
+          {% assign first = false %}
         {% endif %}
 
         {% if has_slides %}
-          {% if has_paper or has_code %} | {% endif %}
+          {% unless first %} | {% endunless %}
           <a href="{{ post.slidesurl }}">Download Slides</a>
+          {% assign first = false %}
         {% endif %}
 
         {% if has_bib %}
-          {% if has_paper or has_slides or has_code %} | {% endif %}
+          {% unless first %} | {% endunless %}
           <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+          {% assign first = false %}
+        {% endif %}
+
+        {% if post.collection == 'talks' and has_video %}
+          {% unless first %} | {% endunless %}
+          <a href="{{ post.video }}" target="_blank">Video (YouTube)</a>
         {% endif %}
       </p>
     {% endif %}
+
 
   </article>
 </div>

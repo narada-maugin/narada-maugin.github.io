@@ -4,6 +4,7 @@ collection: talks
 type: "Talk"
 permalink: /talks/acg25
 venue: "ACG'25"
+video: "https://youtu.be/i4uocvjaU_E?si=YL6cELHzxXyODH0f&t=2677"
 date: 2025-10-22
 location: "Online"
 ---
