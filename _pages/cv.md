@@ -37,12 +37,6 @@ Working Experience
   * Online poker player specializing in Expressos/Spin & Go, up to €250 buy-ins.
   * Played on Winamax, PokerStars, Unibet, PartyPoker, and PMU.
 
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-
 Publications
 ======
 <ul>
@@ -52,6 +46,12 @@ Publications
     {% endunless %}
   {% endfor %}
 </ul>
+
+Talks
+======
+  <ul>{% for post in site.talks reversed %}
+    {% include archive-single-talk-cv.html  %}
+  {% endfor %}</ul>
 
 Bachelor thesis
 ======

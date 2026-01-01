@@ -47,6 +47,8 @@
     {% endif %}
 
     {%- assign kind = post.type | default: post.category | default: post.categories[0] | default: '' | downcase -%}
+    {%- assign is_compact = include.type == "compact" -%}
+
 
     {% if post.collection == 'teaching' %}
 
@@ -54,18 +56,89 @@
 
     {% elsif post.collection == 'publications' %}
 
-      {% if post.date %}
-        <p class="page__meta">
-          <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
-          <time datetime="{{ post.date | date_to_xmlschema }}">
-            {{ post.date | date: "%Y" }}
-          </time>
+      {% if is_compact %}
+
+        {% if post.date %}
+          <p class="page__meta">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%Y" }}
+            </time>
+          </p>
+        {% endif %}
+
+        <p class="pub-compact">
+
+          {% if post.venue != blank %}
+            <span class="pub-venue"><i>{{ post.venue }}</i></span>
+          {% endif %}
+
+          {% if post.excerpt %}
+            <span class="pub-sep"> </span>
+            <span class="pub-desc">{{ post.excerpt | markdownify | strip_html | strip_newlines }}</span>
+          {% endif %}
+
+          {% assign has_paper  = post.paperurl %}
+          {% assign has_slides = post.slidesurl %}
+          {% assign has_bib    = post.bibtexurl %}
+          {% assign has_code   = post.code %}
+          {% assign has_video  = post.video %}
+
+          {% if has_paper or has_slides or has_bib or has_code or has_video %}
+            <span class="pub-sep"> </span>
+            <span class="pub-links">
+              {% assign first = true %}
+
+              {% if has_paper %}
+                <a href="{{ post.paperurl }}">Paper</a>
+                {% assign first = false %}
+              {% endif %}
+
+              {% if has_code %}
+                {% unless first %} | {% endunless %}
+                <a href="{{ post.code }}">Code</a>
+                {% assign first = false %}
+              {% endif %}
+
+              {% if has_slides %}
+                {% unless first %} | {% endunless %}
+                <a href="{{ post.slidesurl }}">Slides</a>
+                {% assign first = false %}
+              {% endif %}
+
+              {% if has_bib %}
+                {% unless first %} | {% endunless %}
+                <a href="{{ post.bibtexurl }}">Bibtex</a>
+                {% assign first = false %}
+              {% endif %}
+
+              {% if has_video %}
+                {% unless first %} | {% endunless %}
+                <a href="{{ post.video }}" target="_blank">Video</a>
+              {% endif %}
+            </span>
+          {% endif %}
+
         </p>
+
+      {% else %}
+
+
+        {% if post.date %}
+          <p class="page__meta">
+            <i class="fa fa-fw fa-calendar" aria-hidden="true"></i>
+            <time datetime="{{ post.date | date_to_xmlschema }}">
+              {{ post.date | date: "%Y" }}
+            </time>
+          </p>
+        {% endif %}
+
+        {% if post.venue != blank %}
+          <p>Published in <i>{{ post.venue }}</i></p>
+        {% endif %}
+
       {% endif %}
 
-      {% if post.venue != blank %}
-        <p>Published in <i>{{ post.venue }}</i></p>
-      {% endif %}
 
     {% elsif post.venue != blank and post.date %}
 
@@ -80,59 +153,66 @@
       </p>
 
     {% endif %}
+    
+    {% unless is_compact %}
+      {% if post.excerpt and site.read_more != 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify }}
+        </p>
+      {% elsif post.excerpt and site.read_more == 'enabled' %}
+        <p class="archive__item-excerpt" itemprop="description">
+          {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
+          <strong>
+            <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a>
+          </strong>
+        </p>
+      {% endif %}
+    {% endunless %}
+    
+    {% unless is_compact %}
 
-    {% if post.excerpt and site.read_more != 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify }}
-      </p>
-    {% elsif post.excerpt and site.read_more == 'enabled' %}
-      <p class="archive__item-excerpt" itemprop="description">
-        {{ post.excerpt | markdownify | remove: '<p>' | remove: '</p>' }}
-        <strong>
-          <a href="{{ base_path }}{{ post.url }}" rel="permalink">Read more</a>
-        </strong>
-      </p>
-    {% endif %}
+      {% assign has_paper  = post.paperurl %}
+      {% assign has_slides = post.slidesurl %}
+      {% assign has_bib    = post.bibtexurl %}
+      {% assign has_code   = post.code %}
+      {% assign has_video  = post.video %}
 
-    {% assign has_paper  = post.paperurl %}
-    {% assign has_slides = post.slidesurl %}
-    {% assign has_bib    = post.bibtexurl %}
-    {% assign has_code   = post.code %}
-    {% assign has_video  = post.video %}
+      {% if has_paper or has_slides or has_bib or has_code or has_video %}
+        <p style="font-size: smaller">
+          {% assign first = true %}
 
-    {% if has_paper or has_slides or has_bib or has_code or has_video %}
-      <p style="font-size: smaller">
-        {% assign first = true %}
+          {% if has_paper %}
+            <a href="{{ post.paperurl }}">Download Paper</a>
+            {% assign first = false %}
+          {% endif %}
 
-        {% if has_paper %}
-          <a href="{{ post.paperurl }}">Download Paper</a>
-          {% assign first = false %}
-        {% endif %}
+          {% if has_code %}
+            {% unless first %} | {% endunless %}
+            <a href="{{ post.code }}">Code</a>
+            {% assign first = false %}
+          {% endif %}
 
-        {% if has_code %}
-          {% unless first %} | {% endunless %}
-          <a href="{{ post.code }}">Code</a>
-          {% assign first = false %}
-        {% endif %}
+          {% if has_slides %}
+            {% unless first %} | {% endunless %}
+            <a href="{{ post.slidesurl }}">Download Slides</a>
+            {% assign first = false %}
+          {% endif %}
 
-        {% if has_slides %}
-          {% unless first %} | {% endunless %}
-          <a href="{{ post.slidesurl }}">Download Slides</a>
-          {% assign first = false %}
-        {% endif %}
+          {% if has_bib %}
+            {% unless first %} | {% endunless %}
+            <a href="{{ post.bibtexurl }}">Download Bibtex</a>
+            {% assign first = false %}
+          {% endif %}
 
-        {% if has_bib %}
-          {% unless first %} | {% endunless %}
-          <a href="{{ post.bibtexurl }}">Download Bibtex</a>
-          {% assign first = false %}
-        {% endif %}
+          {% if post.collection == 'talks' and has_video %}
+            {% unless first %} | {% endunless %}
+            <a href="{{ post.video }}" target="_blank">Video (YouTube)</a>
+          {% endif %}
+        </p>
+      {% endif %}
 
-        {% if post.collection == 'talks' and has_video %}
-          {% unless first %} | {% endunless %}
-          <a href="{{ post.video }}" target="_blank">Video (YouTube)</a>
-        {% endif %}
-      </p>
-    {% endif %}
+    {% endunless %}
+
 
 
   </article>
