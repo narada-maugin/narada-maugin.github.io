@@ -11,8 +11,8 @@ author_profile: true
 </p>
 
 <p style="font-size:0.9rem; margin-bottom:0.25rem;">
-  <span style="color:#0072B2;">●</span> Logic, mathematics & computer science ·
-  <span style="color:#009E73;">●</span> Linguistics ·
+  <span style="color:#0072B2;">●</span> Logic, mathematics & computer science
+  <span style="color:#009E73;">●</span> Linguistics
   <span style="color:#D55E00;">●</span> Philosophy
 </p>
 
