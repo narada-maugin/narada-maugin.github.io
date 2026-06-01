@@ -7,6 +7,12 @@ redirect_from:
   - /about.html
 ---
 
+<div class="notice--info" markdown="0" style="text-align:center;">
+  <strong>You scanned my MADICS 2026 poster!</strong><br>
+  Here's the digital version:<br><br>
+  <a href="/files/poster_madics_2026.pdf" class="btn btn--info">📄 Get the poster (PDF)</a>
+</div>
+
 ### Background
 
 I am currently a student in the [Logos Master’s program](https://master-logos.fr/) at Université Paris Cité, where I study logic, linguistics, computer science, and philosophy. Previously, I obtained a bachelor’s degree in mathematics and completed one year in the MP2I preparatory class (mathematics, physics, engineering, and computer science) in Nantes. Before that, I was also a poker player and a chess coach. My [CV](/cv/) is available on this site.
