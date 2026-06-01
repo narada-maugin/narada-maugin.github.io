@@ -22,6 +22,9 @@ Education
 
 Working Experience
 ======
+* **Research intern – [LIP6](https://www.lip6.fr/), February - August 2026**
+  * Conducted research on uncertainty detection in medieval prosopographical databases.
+  * Supervisors: Camelia Constantin, Raphaël Fournier-S’niehotta, Cédric du Mouza
 * **Research intern – [LAMSADE](https://www.lamsade.dauphine.fr/), May 2025 - January 2026**
   * PokerGPT: playing (correct) poker with a large language model
   * Supervisor: [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php), full professor
@@ -30,10 +33,10 @@ Working Experience
   * Poker : itinéraire scientifique d'un jeu controversé, du XVIIIe siècle à aujourd’hui
   * Supervisor: [Lisa Rougetet](https://nouveau.univ-brest.fr/fr/membre/lisa-rougetet), historian of science
 
-* **Chess coach – [L’échiquier angevin](https://www.echiquierangevin.com/), 2019–2020**
+* **Chess coach – [L’échiquier angevin](https://www.echiquierangevin.com/), 2019-2020**
   * Weekly chess lessons for young players from Angers. Preparation and support during youth championships.
 
-* **Professional poker player – 2017–2020**
+* **Professional poker player – 2017-2020**
   * Online poker player specializing in Expressos/Spin & Go, up to €250 buy-ins.
   * Played on Winamax, PokerStars, Unibet, PartyPoker, and PMU.
 
