@@ -17,6 +17,8 @@ My first research experience was an internship supervised by [Lisa Rougetet](htt
 
 Since May 2025, I have been doing a research internship supervised by Professor [Tristan Cazenave](https://www.lamsade.dauphine.fr/~cazenave/index.php). In a sense, I am continuing the work from my previous project, but this time by getting my hands dirty training a large language model to play poker. To this end, I developed SpinGPT, which defeated the poker AI world champion, Slumbot. This work led to a [paper](/files/PokerACG2025.pdf) accepted at the 2025 *Advances in Computer Games* conference. Building on these results, I then designed and deployed the SpinGPT web platform ([spingpt.lamsade.fr](https://spingpt.lamsade.fr/)), recruited around one hundred human players, and ran a €1,000 challenge that generated over 50,000 human–AI hands, which I analysed using game-theoretic and statistical tools.
 
+More recently, at the [LIP6](https://www.lip6.fr/) (Sorbonne Université & CNRS), I have been working on detecting and qualifying uncertainty in medieval prosopographic data, using large language models to annotate historical records from the *Studium Parisiense* for integration into a knowledge graph. This work was presented at the MADICS 2026 symposium ([poster](/files/poster_madics2026.pdf)).
+
 ### Interests
 
 I have eclectic interests, but I am particularly interested in how we think about, express, model, and confront uncertainty. In this sense, I am interested in information theory, game theory, and Bayesianism, as well as poker and forecasting, along with social psychology, behavioral economics, and epistemology.
