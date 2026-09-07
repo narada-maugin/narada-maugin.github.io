@@ -56,7 +56,7 @@ Talks
     {% include archive-single-talk-cv.html  %}
   {% endfor %}</ul>
 
-Bachelor thesis
+Master's and Bachelor's theses
 ======
 <ul>
   {% for post in site.publications reversed %}
